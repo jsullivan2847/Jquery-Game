@@ -1,0 +1,43 @@
+body{
+    height: 80vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: pink;
+}
+.box{
+    margin: 0 auto;
+    height: 50px;
+    width: 200px;
+    background-color: red;
+    /* animation-duration: 4s;
+    animation-iteration-count: infinite ;
+    animation-name: distort;
+    transition: distort 1s cubic-bezier(0.42, 0, 0.59, 1.79) 3s; */
+    /* display: flex;
+    flex-direction: row;
+    justify-content: flex-end; */
+}
+.your-guy{
+    margin: 0 auto;
+    height: 50px;
+    width: 50px;
+    background-color: green;
+}
+/* .box img{
+    height: 100%;
+    width: 100%
+} */
+
+/* @keyframes distort {
+    50%{
+        background-color: blue;
+        transform: rotate(180deg) skew(25deg);
+    }
+    75%{
+        background-color: red;
+        transform: rotate(360deg) skew(-25deg);
+    }
+} */
+ 
